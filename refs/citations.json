@@ -1,0 +1,147 @@
+{
+  "_comment": "Ánh xạ anchor -> vị trí trong QĐ 5481/QĐ-BYT để panel nguồn tô sáng. paragraph_index tính trên refs/QD-5481-BYT_2020.docx (python-docx, 0-based). Dùng kèm docs/14.",
+  "document": {
+    "id": "QD-5481-BYT-2020",
+    "title": "Hướng dẫn chẩn đoán và điều trị đái tháo đường típ 2",
+    "issued": "2020-12-30",
+    "amended_by": {
+      "id": "QD-1353-BYT-2021",
+      "issued": "2021-02-23",
+      "scope": "Bổ sung thành viên biên soạn; sửa điểm b mục 3 trang 37 (chế độ insulin cho bệnh nhân nặng không nguy kịch, Phần 5 - nội trú)",
+      "affects_rules": false
+    },
+    "file": "QD-5481-BYT_2020.docx",
+    "sha256": "3e663ce9397ee443a585fdc4b3d2a6ec7bbfb56525009bdf618c4a2d63e4efb7"
+  },
+  "anchors": {
+    "PL01-M2-CCD": {
+      "display": "Phụ lục 01, mục 2 (Metformin) — Chống chỉ định",
+      "paragraph_index": 825,
+      "rules": ["R-MED-01", "R-MED-02"],
+      "basis": "eGFR < 30 mL/phút: chống chỉ định; eGFR 30-45 mL/phút: giảm liều; mới chẩn đoán mà eGFR < 45: cân nhắc cẩn thận"
+    },
+    "PL01-M1A-GLIBEN": {
+      "display": "Phụ lục 01, mục 1(a) Glyburide/glibenclamide",
+      "paragraph_index": 813,
+      "secondary_paragraph_index": 814,
+      "rules": ["R-MED-03", "R-MED-05"],
+      "basis": "Nguy cơ hạ glucose máu cao, nhất là ở người già, suy gan, suy thận; chống chỉ định suy thận và dị ứng thuốc"
+    },
+    "PL01-M1-TOMLAI": {
+      "display": "Phụ lục 01, mục 1 — Tóm lại (sulfonylurea)",
+      "paragraph_index": 820,
+      "rules": ["R-MED-03", "R-MED-07"],
+      "basis": "Cần chú ý khi dùng cho bệnh nhân lớn tuổi vì nguy cơ hạ glucose máu cao hơn; giảm liều hay ngưng thuốc khi suy thận"
+    },
+    "P4-41G-TZD": {
+      "display": "Phần 4, mục 4.1(g) — Ảnh hưởng lên suy tim",
+      "paragraph_index": 251,
+      "rules": ["R-MED-04"],
+      "basis": "Chống chỉ định dùng nhóm TZD do tăng suy tim sung huyết"
+    },
+    "PL01-M4-TZD-CCD": {
+      "display": "Phụ lục 01, mục 4 (Thiazolidinedione) — Chống chỉ định",
+      "paragraph_index": 842,
+      "rules": ["R-MED-04"],
+      "basis": "Chống chỉ định suy tim độ III-IV theo NYHA"
+    },
+    "P4-41I-CAOTUOI": {
+      "display": "Phần 4, mục 4.1(i) — Các đối tượng bệnh nhân đặc biệt",
+      "paragraph_index": 256,
+      "rules": ["R-MED-03", "R-MED-07"],
+      "basis": "Phân nhóm người cao tuổi từ trên 65 tuổi"
+    },
+    "P4-42C-TRUNGNHOM": {
+      "display": "Phần 4, mục 4.2(c)",
+      "paragraph_index": 266,
+      "rules": ["R-MED-06"],
+      "basis": "Không lựa chọn các thuốc cùng một nhóm, cùng cơ chế tác dụng"
+    },
+    "P4-42J-SU-INSULIN": {
+      "display": "Phần 4, mục 4.2(j)",
+      "paragraph_index": 276,
+      "rules": ["R-MED-07"],
+      "basis": "Thận trọng tránh nguy cơ hạ glucose máu khi điều trị bằng sulfonylurea, insulin, đặc biệt ở bệnh nhân lớn tuổi"
+    },
+    "P6-M1B-NGUYCO": {
+      "display": "Phần 6, mục 1(b) — Khuyến cáo",
+      "paragraph_index": 565,
+      "rules": ["R-MED-07"],
+      "basis": "Nhóm thuốc có nguy cơ hạ đường huyết: insulin, SU"
+    },
+    "P6-M2-PHANMUC": {
+      "display": "Phần 6, mục 2 — Phân mức độ hạ đường huyết",
+      "paragraph_index": 571,
+      "table_index": 10,
+      "rules": ["R-LAB-01", "R-LAB-02"],
+      "basis": "Mức 1: glucose < 70 mg/dL (3,9 mmol/L) và >= 54 mg/dL (3,0 mmol/L). Mức 2: < 54 mg/dL (3,0 mmol/L). Mức 3: nặng, rối loạn ý thức"
+    },
+    "BANG4-MUCTIEU": {
+      "display": "Bảng 4 — Mục tiêu điều trị cho người trưởng thành, không có thai",
+      "paragraph_index": 211,
+      "table_index": 7,
+      "rules": ["R-TREND-01", "R-TARGET-01", "R-TARGET-02"],
+      "basis": "HbA1c < 7%; HA tâm thu < 140, tâm trương < 90 (< 130/80 nếu có biến chứng thận hoặc nguy cơ tim mạch xơ vữa cao); LDL-C < 2,6 mmol/L, < 1,8 mmol/L nếu đã có bệnh tim mạch xơ vữa"
+    },
+    "BANG5-CAOTUOI": {
+      "display": "Bảng 5 — Mục tiêu điều trị ở người cao tuổi",
+      "paragraph_index": 216,
+      "table_index": 8,
+      "rules": ["R-TREND-01"],
+      "basis": "Mạnh khỏe: HbA1c < 7,5%. Nhiều bệnh, sức khỏe trung bình: < 8,0%. Nhiều bệnh phức tạp/sức khỏe kém: < 8,5%"
+    },
+    "P4-42I-3THANG": {
+      "display": "Phần 4, mục 4.2(i)",
+      "paragraph_index": 275,
+      "rules": ["R-TREND-01"],
+      "basis": "Cần đánh giá lại chiến lược điều trị mỗi 3 tháng và điều chỉnh nếu cần"
+    },
+    "BANG2-XETNGHIEM": {
+      "display": "Bảng 2 — Xét nghiệm đối với người bệnh đái tháo đường",
+      "paragraph_index": 181,
+      "table_index": 5,
+      "rules": ["R-GAP-01", "R-GAP-02"],
+      "basis": "HbA1c tái khám mỗi 3 tháng; creatinin/tính eGFR làm lại mỗi năm hoặc theo yêu cầu lâm sàng; MAU/creatinin niệu 3-6 tháng/lần; lipid máu 1-2 tháng/lần"
+    },
+    "P8-12A-THAN": {
+      "display": "Phần 8, mục 1.2(a) — Biến chứng thận",
+      "paragraph_index": 700,
+      "rules": ["R-GAP-02", "R-GAP-03"],
+      "basis": "Ít nhất mỗi năm một lần đánh giá albumin niệu và mức lọc cầu thận ở tất cả bệnh nhân ĐTĐ típ 2"
+    },
+    "P8-12B-NGUYCOCAO": {
+      "display": "Phần 8, mục 1.2(b) — Biến chứng thận",
+      "paragraph_index": 701,
+      "rules": ["R-GAP-02", "R-GAP-03"],
+      "basis": "Bệnh nhân có albumin niệu > 30 mg/g creatinin và/hoặc eGFR < 60 mL/phút/1,73m2 cần đánh giá hai lần một năm"
+    },
+    "P4-621-LIPID": {
+      "display": "Phần 4, mục 6.2.1 — Đo chỉ số lipid máu",
+      "paragraph_index": 464,
+      "rules": ["R-GAP-04"],
+      "basis": "Cần kiểm tra bộ lipid máu ít nhất hàng năm"
+    },
+    "P4-622-LDL": {
+      "display": "Phần 4, mục 6.2.2 — Điều trị rối loạn lipid máu",
+      "paragraph_index": 470,
+      "secondary_paragraph_index": 471,
+      "rules": ["R-TARGET-02"],
+      "basis": "Nguy cơ cao: LDL-C giảm >= 50% hoặc dưới 1,8 mmol/L. Nguy cơ rất cao: giảm >= 50% hoặc dưới 1,4 mmol/L"
+    },
+    "P2-11-CHANDOAN": {
+      "display": "Phần 2, mục 1.1 — Chẩn đoán đái tháo đường",
+      "paragraph_index": 74,
+      "rules": [],
+      "basis": "Tiêu chuẩn chẩn đoán: glucose đói >= 7 mmol/L; glucose sau 2 giờ OGTT >= 11,1 mmol/L; HbA1c >= 6,5%; glucose bất kỳ >= 11,1 mmol/L kèm triệu chứng. Dùng cho sinh dữ liệu, không sinh cờ"
+    }
+  },
+  "no_threshold_in_document": {
+    "_comment": "Đã rà toàn văn - các ngưỡng sau KHÔNG có cho ngoại trú, hệ thống cố ý không tạo cờ (PRD mục 6)",
+    "items": [
+      "Ngưỡng tăng huyết áp cấp cứu ngoại trú",
+      "Ngưỡng kali máu báo động (chỉ có trong Phần 7 - biến chứng cấp, bối cảnh nội trú)",
+      "Ngưỡng HbA1c báo động",
+      "Ngưỡng eGFR cố định để dùng/ngừng SGLT2i (mục 4.2(b) yêu cầu tham khảo thông tin kê toa từng hoạt chất tại Việt Nam)"
+    ]
+  }
+}
